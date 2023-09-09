@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+## DMM WEBCAMPコンテンツ【アプリケーションを完成させよう】
+
+DMM WEBCAMPの学習コンテンツのRailsを使用した研修課題です。
+
+## 使い方
+PCのブラウザで実行可能です。
