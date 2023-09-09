@@ -15,38 +15,124 @@
  */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  
+
   h1 {
-    font-size: 26px;
+    font-size: 24px;
     margin: 20px;
   }
-  
-  p,ol,ul,td {
-    font-size: 12px;
-    line-height: 18px;
-    margin: 35px
-  }
-  
+
   .head-body {
     margin-bottom: 20px;
     margin-left: 0px;
   }
-  
+
   body {
     background-color: #ffffff;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 15px;
     margin: 30px
   }
-  
-  td {
-    padding-bottom: 25px;
-  }
-  
+
   div {
     margin:5px;
   }
+
+  th {
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 5px;
+  }
+
+  td {
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px
+  }
+
+  a {
+    color: #000000;
+  }
+
+  a:hover {
+    color: #ffffff;
+    background-color: #000000;
+  }
+
+  input, textarea {
+    margin-bottom: 10px;
+  }
+
+  .action {
+    margin-left: 0px;
+  }
+
+  h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 18px;
+    margin: 30px
+  }
+
+  .link {
+    margin-left: 0px;
+    font-size: 13px;
+  }
+
+  .edit-b {
+    font-size: 24px;
+    margin-left: 0px;
+  }
+
+  .flash-message.notice {
+    color: #008000;
+  }
+
+  .error-msg {
+    width: 450px;
+    border: 2px solid;
+    border-color: #ff0000;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #dcdcdc;
+  }
+
+  .error-msg h3 {
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    margin: -7px;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 12px;
+    background-color: #c00;
+    color: #ffffff;
+  }
+
+  .error-msg ul li {
+    font-size: 12px;
+    list-style: square;
+    list-style-position: inside;
+  }
+
+  .error-msg ul {
+    margin: 30px;
+  }
+
+  .field_with_errors {
+    padding: 2px;
+    background-color: #ff0000;
+    display: table;
+  }
+
+

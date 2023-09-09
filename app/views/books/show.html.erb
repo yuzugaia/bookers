@@ -15,10 +15,9 @@
   <%= @book.body %>
 </p>
 
-<%#= link_to "Destroy", book_path(@book.id), method: :delete, "data-confirm" => "Are you Sure?" %>
 
-<p>
+<div class="link">
   <%= link_to "Edit", edit_book_path(@book.id) %>
   |
   <a href="/books">Back</a>
-</p>
+</div>
